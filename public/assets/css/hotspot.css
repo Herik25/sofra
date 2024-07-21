@@ -1,0 +1,309 @@
+#toolTipGenerator {
+    background: #fff;
+    padding: 70px;
+    overflow: hidden;
+    height: 100%;
+}
+#toolTipGenerator .properties {
+    float: left;
+    width: 30%;
+}
+#toolTipGenerator .properties div {
+    padding: 0.5em 0;
+}
+#toolTipGenerator .properties div label {
+    display: inline-block;
+    width: 130px;
+    white-space: nowrap;
+}
+#toolTipGenerator .properties div label[for="t_toolTipWidthAuto"],
+#toolTipGenerator .properties div label[for="t_toolTipVisible"] {
+    display: inline;
+}
+#toolTipGenerator .properties div #t_toolTipWidthAuto,
+#toolTipGenerator .properties div #t_toolTipVisible {
+    margin-left: 140px;
+    margin-top: 10px;
+}
+#toolTipGenerator .properties div #t_toolTipWidth {
+    width: 50px;
+}
+#toolTipGenerator .properties div #t_content {
+    height: 150px;
+    width: 100%;
+}
+#toolTipGenerator .image {
+    position: relative;
+    margin-left: 35%;
+    cursor: crosshair;
+    height: 100%;
+}
+#toolTipGenerator .image img.target {
+    max-width: 100%;
+    max-height: 100%;
+}
+#toolTipGenerator .t_hotSpot.selected:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 6px;
+    top: -7px;
+    left: -7px;
+    border: 1px dashed #000;
+    box-sizing: content-box;
+}
+#toolTipGenerator .t_hotSpot.selected:hover:after {
+    content: "drag me";
+    position: absolute;
+    bottom: -30px;
+    right: -55px;
+    font-size: 12px;
+    white-space: nowrap;
+    background: rgba(24, 24, 24, 0.9);
+    color: #fff;
+    padding: 0 4px 2px;
+    border-radius: 3px;
+}
+
+.t_hotSpot {
+    position: absolute;
+    border: 3px solid transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+.t_hotSpot.red {
+    background: #dc143c;
+}
+.t_hotSpot.green {
+    background: #228b22;
+}
+.t_hotSpot.blue {
+    background: #0000cd;
+}
+.t_hotSpot.purple {
+    background: #4b0082;
+}
+.t_hotSpot.pink {
+    background: #ff69b4;
+}
+.t_hotSpot.orange {
+    background: #ff8c00;
+}
+.t_hotSpot.medium {
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+    margin-left: -15px;
+}
+.t_hotSpot.large {
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+.t_hotSpot.red {
+    background: #dc143c;
+}
+.t_hotSpot.green {
+    background: #228b22;
+}
+.t_hotSpot.blue {
+    background: #0000cd;
+}
+.t_hotSpot.purple {
+    background: #4b0082;
+}
+.t_hotSpot.pink {
+    background: #ff69b4;
+}
+.t_hotSpot.orange {
+    background: #ff8c00;
+}
+.t_hotSpot.square {
+    border-radius: 0;
+}
+.t_hotSpot.circleOutline {
+    background: transparent;
+}
+.t_hotSpot.circleOutline.red {
+    border-color: #dc143c;
+}
+.t_hotSpot.circleOutline.green {
+    border-color: #228b22;
+}
+.t_hotSpot.circleOutline.blue {
+    border-color: #0000cd;
+}
+.t_hotSpot.circleOutline.purple {
+    border-color: #4b0082;
+}
+.t_hotSpot.circleOutline.pink {
+    border-color: #ff69b4;
+}
+.t_hotSpot.circleOutline.orange {
+    border-color: #ff8c00;
+}
+.t_hotSpot.squareOutline {
+    background: transparent;
+    border-radius: 0;
+}
+.t_hotSpot.squareOutline.red {
+    border-color: #dc143c;
+}
+.t_hotSpot.squareOutline.green {
+    border-color: #228b22;
+}
+.t_hotSpot.squareOutline.blue {
+    border-color: #0000cd;
+}
+.t_hotSpot.squareOutline.purple {
+    border-color: #4b0082;
+}
+.t_hotSpot.squareOutline.pink {
+    border-color: #ff69b4;
+}
+.t_hotSpot.squareOutline.orange {
+    border-color: #ff8c00;
+}
+.t_hotSpot:hover .t_tooltip_content_wrap {
+    opacity: 1;
+}
+.t_hotSpot .t_tooltip_content_wrap {
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+    position: absolute;
+    padding: 8px;
+    color: #fff;
+    font-size: 0.8em;
+    border-radius: 5px;
+    background: rgba(24, 24, 24, 0.9);
+    min-width: 20px;
+    min-height: 20px;
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    margin: auto auto auto auto;
+    top: -6px;
+    right: 100%;
+    margin-right: 19px;
+}
+.t_hotSpot .t_tooltip_content_wrap a {
+    color: #fff;
+}
+.t_hotSpot .t_tooltip_content_wrap a:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+.t_hotSpot .t_tooltip_content_wrap.alwaysVisible {
+    opacity: 1;
+}
+.t_hotSpot .t_tooltip_content_wrap.specificWidth img {
+    max-width: 100%;
+}
+.t_hotSpot .t_tooltip_content_wrap:after {
+    content: "";
+    border: 6px solid transparent;
+    position: absolute;
+}
+.t_hotSpot .t_tooltip_content_wrap:after {
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    border-color: transparent;
+}
+.t_hotSpot .t_tooltip_content_wrap:after {
+    border-left-color: rgba(24, 24, 24, 0.9);
+    right: -12px;
+    top: 6px;
+}
+.t_hotSpot .t_tooltip_content_wrap.right {
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    margin: auto auto auto auto;
+    top: -6px;
+    left: 100%;
+    margin-left: 19px;
+}
+.t_hotSpot .t_tooltip_content_wrap.right:after {
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    border-color: transparent;
+}
+.t_hotSpot .t_tooltip_content_wrap.right:after {
+    border-right-color: rgba(24, 24, 24, 0.9);
+    left: -12px;
+    top: 6px;
+}
+.t_hotSpot .t_tooltip_content_wrap.top {
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    margin: auto auto auto auto;
+    left: -6px;
+    bottom: 100%;
+    margin-bottom: 19px;
+}
+.t_hotSpot .t_tooltip_content_wrap.top:after {
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    border-color: transparent;
+}
+.t_hotSpot .t_tooltip_content_wrap.top:after {
+    left: 6px;
+    border-top-color: rgba(24, 24, 24, 0.9);
+    bottom: -12px;
+}
+.t_hotSpot .t_tooltip_content_wrap.bottom {
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    margin: auto auto auto auto;
+    left: -6px;
+    top: 100%;
+    margin-top: 19px;
+}
+.t_hotSpot .t_tooltip_content_wrap.bottom:after {
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    border-color: transparent;
+}
+.t_hotSpot .t_tooltip_content_wrap.bottom:after {
+    left: 6px;
+    border-bottom-color: rgba(24, 24, 24, 0.9);
+    top: -12px;
+}
+.t_hotSpot.medium .t_tooltip_content_wrap.left,
+.t_hotSpot.medium .t_tooltip_content_wrap.right {
+    top: -2px;
+}
+.t_hotSpot.medium .t_tooltip_content_wrap.top,
+.t_hotSpot.medium .t_tooltip_content_wrap.bottom {
+    left: 0;
+}
+.t_hotSpot.large .t_tooltip_content_wrap.left,
+.t_hotSpot.large .t_tooltip_content_wrap.right {
+    top: 0;
+}
+.t_hotSpot.large .t_tooltip_content_wrap.top,
+.t_hotSpot.large .t_tooltip_content_wrap.bottom {
+    left: 3px;
+}

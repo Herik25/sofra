@@ -1,0 +1,262 @@
+:lang(ar) {
+  direction: rtl !important;
+}
+
+:lang(ar) .slider-part .slide-content {
+  padding: 0 0 0 8%;
+}
+
+:lang(ar) .swiper-container,
+:lang(ar) .swiper-wrapper {
+  direction: ltr !important;
+}
+
+:lang(ar) .subscribeBox i {
+  position: relative;
+  right: 12px;
+  font-size: 19px;
+  top: 50%;
+  -webkit-transform: translateY(-4%);
+          transform: translateY(-4%);
+}
+
+:lang(ar) .cart-summary {
+  margin-right: 50px;
+}
+
+:lang(ar) .cart-price {
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+:lang(ar) .cart-item-image {
+  margin-left: 20px;
+}
+
+:lang(ar) .md-title {
+  text-align: right;
+}
+
+:lang(ar) .form-group > label {
+  text-align: right;
+}
+
+:lang(ar) .cart-sticky h6 {
+  text-align: right;
+}
+
+:lang(ar) .custom-upload label {
+  margin-right: 15px;
+}
+
+:lang(ar) .ml-auto {
+  margin-left: 0 !important;
+  margin-right: auto !important;
+}
+
+:lang(ar) #progressbar li:before {
+  margin: 0 0 0 15px;
+}
+
+:lang(ar) #progressbar li.active {
+  margin-left: 15px;
+}
+
+:lang(ar) .comment-user-thumb {
+  margin-left: 15px;
+}
+
+:lang(ar) .forum-list-title h2 {
+  text-align: right;
+}
+
+:lang(ar) .forum-list-title p {
+  text-align: right;
+}
+
+:lang(ar) .forum-comment span:before {
+  margin-left: 17px;
+}
+
+:lang(ar) .projectList-title h2 {
+  text-align: right;
+}
+
+:lang(ar) .projectList-author img {
+  margin-left: 3px;
+}
+
+:lang(ar) .account-component {
+  padding-right: 50px;
+}
+
+:lang(ar) .ac-link-group span {
+  text-align: right;
+}
+
+:lang(ar) h6 {
+  text-align: right;
+}
+
+:lang(ar) .w-70 button {
+  display: block;
+  text-align: right;
+}
+
+:lang(ar) .w-50 form button {
+  display: block;
+  text-align: right;
+}
+
+:lang(ar) .ac-link-group a {
+  padding: 8px 0 8px 15px;
+}
+
+:lang(ar) .ac-link-group a i {
+  margin-left: 12px;
+}
+
+:lang(ar) .s-rte p {
+  text-align: right;
+}
+
+:lang(ar) .s-rte h2 {
+  text-align: right;
+}
+
+:lang(ar) .s-rte ul li {
+  text-align: right;
+  margin-right: 25px;
+}
+
+:lang(ar) .s-rte ul li::before {
+  right: -20px;
+}
+
+:lang(ar) .product-options strong {
+  margin-left: 20px;
+}
+
+:lang(ar) .product-name-main {
+  text-align: right;
+  margin-right: 20px;
+}
+
+:lang(ar) .product-overview .price {
+  text-align: right;
+  margin-right: 15px;
+}
+
+:lang(ar) .product-overview .description {
+  text-align: right;
+  margin-right: 20px;
+}
+
+:lang(ar) .product-basic {
+  margin-right: 20px;
+}
+
+:lang(ar) .product-details-main .thumb-slider .gallery-thumbs {
+  margin-left: 20px;
+}
+
+:lang(ar) .info-table dt {
+  margin-left: 50px;
+  text-align: right;
+}
+
+:lang(ar) .info-table dl {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+:lang(ar) .product-name {
+  text-align: right;
+}
+
+:lang(ar) .product-brand {
+  text-align: right;
+}
+
+:lang(ar) .profile-profileContents {
+  padding-right: 60px;
+}
+
+:lang(ar) h5 {
+  text-align: right;
+}
+
+:lang(ar) .professional-card img {
+  margin-left: 16px;
+}
+
+:lang(ar) .play-icon:before {
+  right: 16px;
+}
+
+:lang(ar) .ar-pad {
+  margin-right: 20px;
+}
+
+:lang(ar) .form-group {
+  text-align: right;
+}
+
+:lang(ar) .feature-box {
+  text-align: right;
+}
+
+:lang(ar) .feature-box .featurebox-img {
+  margin-left: 30px;
+}
+
+:lang(ar) .accordion p {
+  text-align: right;
+}
+
+:lang(ar) .ac-title {
+  text-align: right;
+}
+
+:lang(ar) .projectDetials-counter span i {
+  margin-left: 8px;
+}
+
+:lang(ar) .project-features .pFeature-list div {
+  margin-right: 15px;
+}
+
+:lang(ar) .project-detail-content h4 {
+  text-align: right;
+}
+
+:lang(ar) .filter-toggle.btn {
+  margin-left: 20px;
+}
+
+:lang(ar) .userInfo-column dl dd {
+  margin-right: 20px;
+}
+
+:lang(ar) .cat-list {
+  margin-right: 20px;
+}
+
+:lang(ar) .cat-list a {
+  text-align: right;
+}
+:lang(ar) .cat-list a {
+  text-align: right;
+}
+@media (min-width: 768px){
+  :lang(ar) .navbar-expand-md .navbar-nav .dropdown-menu-right {
+      right: inherit;
+      left: 0;
+  }
+}
+/*# sourceMappingURL=rtl.css.map */

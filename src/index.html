@@ -1,0 +1,1663 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Shorfa</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0" />
+
+    <!-- <link rel="icon" href="images/icon.png" type="image/gif"> -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+    <script defer
+        src="https://www.paypal.com/sdk/js?client-id=AdCbdHUjG1FP44SLO2ZqzpKp1CSmke-8RU32qSkGljyaMF27GVqBH6CG33vJQ8aabazgPTqO_yIkwm_D"></script>
+
+</head>
+
+<body>
+
+    <!-- <div class="mobile-view mobile-header">
+        <div class="mobile-header-left">
+            <span class="menu-toggle header-link"><i class="bi-list"></i></span>
+            <a class="navbar-brand" href=""><img src="images/logo.png" /></a>
+        </div>
+        <div class="mobile-header-right">
+            <span class="header-link search-toggle"><i class="bi-search"></i></span>
+            <a href="" class="header-link"><i class="bi-bag"></i></a>
+            <a href="" class="header-link"><i class="bi-person"></i></a>
+            <span class="header-link upload-trigger"><i class="bi-plus"></i></span>
+        </div>
+    </div>
+
+    <div class="mobile-view mobile-menu">
+        <div class="mobile-menu-inner">
+            <div class="drawer-top">
+                <span class="close-drawer"><i class="bi bi-x"></i></span>
+                <img src="images/drawer-banner.jpg">
+            </div>
+            <div class="drawer-links">
+                <ul class="accordion">
+                    <li>
+                        <a class="ac-title icon-list"><i class="bi bi-view-list"></i>Community</a>
+                        <div class="ac-content">
+                            <div class="drawer-submenu">
+                                <a href="">Rooms</a>
+                                <a href="">Project</a>
+                                <a href="">Know-How</a>
+                                <a href="">Living Experience</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="ac-title icon-list"><i class="bi bi-shop"></i>Store</a>
+                        <div class="ac-content">
+                            <div class="drawer-submenu">
+                                <a href="">Shop by Room</a>
+                                <a href="">Shop by Category</a>
+                                <a href="">Best Seller</a>
+                                <a href="">Sale</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="ac-title icon-list"><i class="bi bi-briefcase"></i>Professional</a>
+                        <div class="ac-content">
+                            <div class="drawer-submenu">
+                                <a href="">Design</a>
+                                <a href="">Renovation</a>
+                                <a href="">Seriveces</a>
+                                <a href="">Consultation</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <a href="" class="icon-list"><i class="bi bi-box"></i>Sell Products</a>
+                <a href="" class="icon-list"><i class="bi bi-person-plus"></i>Become Professional</a>
+            </div>
+            <div class="menu-widget">
+                <div class="language-selector">
+                    <div class="icon-list widget-title">Language</div>
+                    <div>
+                        <div class="form-option">
+                            <label class="foption">
+                                <input type="radio" name="language" checked="">
+                                <span>English</span>
+                            </label>
+                        </div>
+                        <div class="form-option">
+                            <label class="foption">
+                                <input type="radio" name="language">
+                                <span>عربي</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-widget">
+                <div class="icon-list widget-title">Currency</div>
+                <div class="widget-list currency-selector">
+                    <div>
+                        <i class="bi-cash"></i>
+                        <strong>SAR</strong>
+                    </div>
+                    <i class="bi-chevron-right"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom-drawer">
+        <span class="hide-drawer"></span>
+        <div class="bottom-drawer-inner">
+            <a class="icon-item" href="">
+                <img src="images/project.png">
+                <span>Upload a project</span>
+            </a>
+            <a class="icon-item" href="">
+                <img src="images/living_experience.png">
+                <span>Share a Living Experience</span>
+            </a>
+            <a class="icon-item" href="">
+                <img src="images/upload-3.svg">
+                <span>Write a Know How</span>
+            </a>
+            <a class="icon-item" href="">
+                <img src="images/upload-4.svg">
+                <span>Upload a Product</span>
+            </a>
+            <a class="icon-item" href="">
+                <img src="images/question.png">
+                <span>Ask a Question</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="searchbar-wrapper">
+        <div class="container">
+            <div class="searchbar-container">
+                <i class="bi-search searchbar-icon"></i>
+                <input type="" name="" placeholder="search...">
+                <button class="search-close"><i class="bi-x"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-md navbar-transparent">
+        <div class="container">
+            <a class="navbar-brand" href="">
+                <img src="images/logo.png" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item dropdown megamenu">
+                        <a class="nav-link dropdown-toggle" href="" data-toggle="dropdown">Community</a>
+                        <div class="dropdown-menu">
+                            <div class="mega-container four">
+                                <a href=""><img src="images/menu-room.jpg"><span>Rooms</span></a>
+                                <a href=""><img src="images/menu-project.jpg"><span>Projects</span></a>
+                                <a href=""><img src="images/menu-knowhow.jpg"><span>Know how</span></a>
+                                <a href=""><img src="images/menu-livingexperience.jpg"><span>Living
+                                        Experience</span></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown megamenu">
+                        <a class="nav-link dropdown-toggle" href="" data-toggle="dropdown">Store</a>
+                        <div class="dropdown-menu">
+                            <div class="mega-container four">
+                                <a href=""><img src="images/menu-shopbyroom.jpg"><span>Shop by Room</span></a>
+                                <a href=""><img src="images/menu-shopbycategory.jpg"><span>Shop by Category</span></a>
+                                <a href=""><img src="images/menu-bestsellers.jpg"><span>Best Sellers</span></a>
+                                <a href=""><img src="images/menu-sale.jpg"><span>Sale</span></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown megamenu">
+                        <a class="nav-link dropdown-toggle" href="" data-toggle="dropdown">Professional</a>
+                        <div class="dropdown-menu">
+                            <div class="mega-container four">
+                                <a href=""><img src="images/menu-design.jpg"><span>Design</span></a>
+                                <a href=""><img src="images/menu-renovation.jpg"><span>Renovation</span></a>
+                                <a href=""><img src="images/menu-services.jpg"><span>Services</span></a>
+                                <a href=""><img src="images/menu-consultation.jpg"><span>Consultation</span></a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav right-navbar">
+                    <li class="nav-item">
+                        <span class="nav-link search-toggle"><i class="bi-search"></i></span>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href=""><i class="bi-bag"></i><span class="badge count">3</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <span class="nav-link access-trigger"><i class="bi-person"></i></span>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle btn btn-primary" href="" data-toggle="dropdown">Upload</a>
+                        <div class="dropdown-menu dropdown-menu-right iconic">
+                            <a class="dropdown-item" href="">
+                                <img src="images/project.png">
+                                <span>Upload a project</span>
+                            </a>
+                            <a class="dropdown-item" href="">
+                                <img src="images/living_experience.png">
+                                <span>Share a Living Experience</span>
+                            </a>
+                            <a class="dropdown-item" href="">
+                                <img src="images/upload-3.svg">
+                                <span>Write a Know How</span>
+                            </a>
+                            <a class="dropdown-item" href="">
+                                <img src="images/upload-4.svg">
+                                <span>Upload a Product</span>
+                            </a>
+                            <a class="dropdown-item" href="">
+                                <img src="images/question.png">
+                                <span>Ask a Question</span>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle no-caret" href="" data-toggle="dropdown">
+                            <i class="bi-list"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <div class="moreMenu-wrapper">
+                                <div class="menu-widget">
+                                    <div class="language-selector">
+                                        <div class="widget-title">Language</div>
+                                        <div>
+                                            <div class="form-option">
+                                                <label class="foption sm">
+                                                    <input type="radio" name="language" checked="">
+                                                    <span>English</span>
+                                                </label>
+                                            </div>
+                                            <div class="form-option">
+                                                <label class="foption sm">
+                                                    <input type="radio" name="language">
+                                                    <span>عربي</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="menu-widget">
+                                    <div class="widget-list currency-selector">
+                                        <div>
+                                            <i class="bi-cash"></i>
+                                            <strong>SAR</strong>
+                                        </div>
+                                        <i class="bi-chevron-right"></i>
+                                    </div>
+                                </div>
+                                <div class="menu-widget">
+                                    <div class="widget-links">
+                                        <a href="" class="icon-list"><i class="bi bi-box"></i><b>Sell Products</b></a>
+                                        <a href="" class="icon-list"><i class="bi bi-person-plus"></i><b>Become
+                                                Professional</b></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero-slider">
+        <div class="container">
+            <div class="slider-area">
+                <div id="hero-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+                    <ul class="carousel-indicators">
+                        <li data-target="#hero-carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#hero-carousel" data-slide-to="1"></li>
+                        <li data-target="#hero-carousel" data-slide-to="2"></li>
+                    </ul>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="slider-part">
+                                <div class="slide-content">
+                                    <h5>KH Elite Architectural</h5>
+                                    <h2>Explore Todays project Story</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua.</p>
+                                    <a href="" class="btn btn-primary">Explore Projects</a>
+                                </div>
+                                <div class="slide-image">
+                                    <div class="lg-container">
+                                        <img src="images/herobanner-1.jpg" class="lg-image hero-banner" />
+                                        <div style="top: 66%; left: 24%;" class="lg-hotspot lg-hotspot--top-left">
+                                            <div class="lg-hotspot__button"></div>
+                                            <div class="lg-hotspot__label">
+                                                <div class="hotspot-product">
+                                                    <img src="images/product-1.jpg">
+                                                    <div>
+                                                        <a href="" class="hs-p-name">Office Desk Sofa</a>
+                                                        <span class="hs-p-price">$100</span>
+                                                        <a href="" class="hs-p-link">View Product</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="top: 73%; left: 50%;" class="lg-hotspot lg-hotspot--top-left">
+                                            <div class="lg-hotspot__button"></div>
+                                            <div class="lg-hotspot__label">
+                                                <div class="hotspot-product">
+                                                    <img src="images/product-2.jpg">
+                                                    <div>
+                                                        <a href="" class="hs-p-name">Office Desk Sofa</a>
+                                                        <span class="hs-p-price">$100</span>
+                                                        <a href="" class="hs-p-link">View Product</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="top: 36%; left: 84%;" class="lg-hotspot lg-hotspot--top-right">
+                                            <div class="lg-hotspot__button"></div>
+                                            <div class="lg-hotspot__label">
+                                                <div class="hotspot-product">
+                                                    <img src="images/product-3.jpg">
+                                                    <div>
+                                                        <a href="" class="hs-p-name">Office Desk Sofa</a>
+                                                        <span class="hs-p-price">$100</span>
+                                                        <a href="" class="hs-p-link">View Product</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="top: 86%; left: 86%;" class="lg-hotspot lg-hotspot--bottom-right">
+                                            <div class="lg-hotspot__button"></div>
+                                            <div class="lg-hotspot__label">
+                                                <div class="hotspot-product">
+                                                    <img src="images/product-4.jpg">
+                                                    <div>
+                                                        <a href="" class="hs-p-name">Office Desk Sofa</a>
+                                                        <span class="hs-p-price">$100</span>
+                                                        <a href="" class="hs-p-link">View Product</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="slider-part">
+                                <div class="slide-content">
+                                    <h5>KH Elite Architectural</h5>
+                                    <h2>Explore Todays project Story</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua.</p>
+                                    <a href="" class="btn btn-primary">Explore Projects</a>
+                                </div>
+                                <div class="slide-image"><img src="images/herobanner-2.jpg" class="hero-banner" /></div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="slider-part">
+                                <div class="slide-content">
+                                    <h5>KH Elite Architectural</h5>
+                                    <h2>Explore Todays project Story</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua.</p>
+                                    <a href="" class="btn btn-primary">Explore Projects</a>
+                                </div>
+                                <div class="slide-image"><img src="images/herobanner-3.jpg" class="hero-banner" /></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="featured-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-4">
+                    <div class="furgan-iconbox style-01">
+                        <div class="iconbox-inner">
+                            <div class="icon">
+                                <i class="bi bi-truck"></i>
+                            </div>
+                            <div class="content">
+                                <h4>Fast Shipping.</h4>
+                                <div class="desc">With sites in 5 languages, we ship to over 200 countries</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-4">
+                    <div class="furgan-iconbox style-01">
+                        <div class="iconbox-inner">
+                            <div class="icon">
+                                <i class="bi bi-shield-check"></i>
+                            </div>
+                            <div class="content">
+                                <h4>Safe delivery</h4>
+                                <div class="desc">Pay with the world’s most popular, secure payment methods.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-4">
+                    <div class="furgan-iconbox style-01">
+                        <div class="iconbox-inner">
+                            <div class="icon">
+                                <i class="bi bi-arrow-repeat"></i>
+                            </div>
+                            <div class="content">
+                                <h4>365 Days Return</h4>
+                                <div class="desc">Round-the-clock assistance for a shopping experience.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="categories-wrapper">
+        <div class="container">
+            <div class="row d-flex">
+                <div class="col-md-12">
+                    <div class="categories-grid">
+                        <a href="">
+                            <div class="cat-square">
+                                <div class="cat-iconimage"><img src="images/categories/category-1.svg" /></div>
+                                <span>Rooms</span>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="cat-square">
+                                <div class="cat-iconimage"><img src="images/categories/category-2.svg" /></div>
+                                <span>Projects</span>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="cat-square">
+                                <div class="cat-iconimage"><img src="images/categories/category-3.svg" /></div>
+                                <span>Products</span>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="cat-square">
+                                <div class="cat-iconimage"><img src="images/categories/category-4.svg" /></div>
+                                <span>Know How</span>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="cat-square">
+                                <div class="cat-iconimage"><img src="images/categories/category-5.svg" /></div>
+                                <span>Living Experience</span>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="cat-square">
+                                <div class="cat-iconimage"><img src="images/categories/category-6.svg" /></div>
+                                <span>Find Professionals</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="clients-wrapper">
+        <div class="container">
+            <div class="row d-flex justify-content-between align-items-center">
+                <div class="col-md-6">
+                    <div class="ad-wrapper">
+                        <div class="swiper-container ad-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="images/addBanner-1.jpg"></div>
+                                <div class="swiper-slide"><img src="images/addBanner-2.jpg"></div>
+                                <div class="swiper-slide"><img src="images/addBanner-3.jpg"></div>
+                                <div class="swiper-slide"><img src="images/addBanner-4.jpg"></div>
+                                <div class="swiper-slide"><img src="images/addBanner-5.jpg"></div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                            <div class="sNav-center">
+                                <div class="swiper-button-prev outline"></div>
+                                <div class="swiper-button-next outline"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="client-grid">
+                        <div><img src="images/brand-1.png"></div>
+                        <div><img src="images/brand-2.png"></div>
+                        <div><img src="images/brand-3.png"></div>
+                        <div><img src="images/brand-4.png"></div>
+                        <div><img src="images/brand-5.png"></div>
+                        <div><img src="images/brand-6.png"></div>
+                        <div><img src="images/brand-7.png"></div>
+                        <div><img src="images/brand-1.png"></div>
+                        <div><img src="images/brand-2.png"></div>
+                        <div><img src="images/brand-3.png"></div>
+                        <div><img src="images/brand-4.png"></div>
+                        <div><img src="images/brand-5.png"></div>
+                        <div><img src="images/brand-6.png"></div>
+                        <div><img src="images/brand-7.png"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="projects-wrapper">
+        <div class="container">
+            <div class="title-section text-center">
+                <h5 class="sub">Make Uniquely Yours</h5>
+                <h2 class="title">Our Popular Projects</h2>
+            </div>
+        </div>
+        <div class="container">
+            <div class="projects-grid">
+                <a href="">
+                    <figure><img src="images/projects-1.jpg"></figure>
+                    <div class="projects-grid-details">
+                        <h6>BM Architects</h6>
+                        <h4>Decorate your home with furns.</h4>
+                        <span>View More</span>
+                    </div>
+                </a>
+                <a href="">
+                    <figure><img src="images/projects-2.jpg"></figure>
+                    <div class="projects-grid-details">
+                        <h6>Styled Habitat</h6>
+                        <h4>Decorate your home with furns.</h4>
+                        <span>View More</span>
+                    </div>
+                </a>
+                <a href="">
+                    <figure><img src="images/projects-3.jpg"></figure>
+                    <div class="projects-grid-details">
+                        <h6>Blush International</h6>
+                        <h4>Decorate your home with furns.</h4>
+                        <span>View More</span>
+                    </div>
+                </a>
+                <a href="">
+                    <figure><img src="images/projects-4.jpg"></figure>
+                    <div class="projects-grid-details">
+                        <h6>Widad Aboujeb</h6>
+                        <h4>Decorate your home with furns.</h4>
+                        <span>View More</span>
+                    </div>
+                </a>
+                <a href="">
+                    <figure><img src="images/projects-5.jpg"></figure>
+                    <div class="projects-grid-details">
+                        <h6>K Design Oman</h6>
+                        <h4>Decorate your home with furns.</h4>
+                        <span>View More</span>
+                    </div>
+                </a>
+                <a href="">
+                    <figure><img src="images/projects-6.jpg"></figure>
+                    <div class="projects-grid-details">
+                        <h6>K Design Oman</h6>
+                        <h4>Decorate your home with furns.</h4>
+                        <span>View More</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="products-wrapper">
+        <div class="container">
+            <!-- <div class="title-section split">
+            <div>
+                <h2 class="title">Products We Love</h2>
+            </div>
+            <div>
+                <a href="" class="btn btn-plain">All Products</a>
+            </div>
+        </div>
+        <div class="slider-wrapper">
+            <div class="swiper-container product-swiper">
+                <div class="swiper-wrapper ">
+                    <div class="swiper-slide">
+                        <div class="product-item">
+                            <div class="product-thumb">
+                                <a href="">
+                                    <img src="images/product-1.jpg">
+                                </a>
+                            </div>
+                            <div class="product-info">
+                                <h4 class="product-name"><a href="">Office Desk Sofa</a></h4>
+                                <div class="rating-wapper">
+                                    <span class="star-rating"><span class="stars four"></span></span>
+                                </div>
+                                <div class="product-brand"><a href="">Styled Habitat</a></div>
+                                <div class="product-price">$100.00</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="product-item">
+                            <div class="product-thumb">
+                                <a href="">
+                                    <img src="images/product-2.jpg">
+                                </a>
+                            </div>
+                            <div class="product-info">
+                                <h4 class="product-name"><a href="">Ergonomic Desk Sofa</a></h4>
+                                <div class="rating-wapper">
+                                    <span class="star-rating"><span class="stars five"></span></span>
+                                </div>
+                                <div class="product-brand"><a href="">Styled Habitat</a></div>
+                                <div class="product-price">$100.00</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="product-item">
+                            <div class="product-thumb">
+                                <a href="">
+                                    <img src="images/product-3.jpg">
+                                </a>
+                            </div>
+                            <div class="product-info">
+                                <h4 class="product-name"><a href="">Swivel Sofa</a></h4>
+                                <div class="rating-wapper">
+                                    <span class="star-rating"><span class="stars three"></span></span>
+                                </div>
+                                <div class="product-brand"><a href="">Styled Habitat</a></div>
+                                <div class="product-price">$100.00</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="product-item">
+                            <div class="product-thumb">
+                                <a href="">
+                                    <img src="images/product-4.jpg">
+                                </a>
+                            </div>
+                            <div class="product-info">
+                                <h4 class="product-name"><a href="">Wood Patio Chair</a></h4>
+                                <div class="rating-wapper">
+                                    <span class="star-rating"><span class="stars two"></span></span>
+                                </div>
+                                <div class="product-brand"><a href="">Styled Habitat</a></div>
+                                <div class="product-price">$100.00</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="product-item">
+                            <div class="product-thumb">
+                                <a href="">
+                                    <img src="images/product-5.jpg">
+                                </a>
+                            </div>
+                            <div class="product-info">
+                                <h4 class="product-name"><a href="">Brown Vinyl Padded</a></h4>
+                                <div class="rating-wapper">
+                                    <span class="star-rating"><span class="stars one"></span></span>
+                                </div>
+                                <div class="product-brand"><a href="">Styled Habitat</a></div>
+                                <div class="product-price">$100.00</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="product-item">
+                            <div class="product-thumb">
+                                <a href="">
+                                    <img src="images/product-6.jpg">
+                                </a>
+                            </div>
+                            <div class="product-info">
+                                <h4 class="product-name"><a href="">Antique Walnut</a></h4>
+                                <div class="rating-wapper">
+                                    <span class="star-rating"><span class="stars four"></span></span>
+                                </div>
+                                <div class="product-brand"><a href="">Styled Habitat</a></div>
+                                <div class="product-price">$100.00</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="static-navs">
+                <div class="swiper-button-prev outline"></div>
+                <div class="swiper-button-next outline"></div>
+            </div>
+        </div> -->
+    <div class="line-tab">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="active" data-toggle="tab" href="#latest">Latest</a>
+            </li>
+            <li class="nav-item">
+                <a class="" data-toggle="tab" href="#bestseller">Sellers</a>
+            </li>
+            <li class="nav-item">
+                <a class="" data-toggle="tab" href="#featured">Featured</a>
+            </li>
+        </ul>
+    </div>
+    <div class="tab-content">
+        <div class="tab-pane active" id="latest">
+            <div class="products-grid">
+                <div class="product-item">
+                    <div class="product-thumb">
+                        <a href="">
+                            <img src="images/product-1.jpg">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <h4 class="product-name"><a href="">Office Desk Sofa</a></h4>
+                        <div class="just-in">
+                            <div class="product-price">$100.00</div>
+                            <div class="rating-wapper">
+                                <span class="star-rating"><span class="stars four"></span></span>
+                            </div>
+                        </div>
+                        <div class="product-brand"><a href="">Styled Habitat</a></div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-thumb">
+                        <a href="">
+                            <img src="images/product-2.jpg">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <h4 class="product-name"><a href="">Ergonomic Desk Sofa</a></h4>
+                        <div class="just-in">
+                            <div class="product-price">$100.00</div>
+                            <div class="rating-wapper">
+                                <span class="star-rating"><span class="stars five"></span></span>
+                            </div>
+                        </div>
+                        <div class="product-brand"><a href="">Styled Habitat</a></div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-thumb">
+                        <a href="">
+                            <img src="images/product-3.jpg">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <h4 class="product-name"><a href="">Swivel Sofa</a></h4>
+                        <div class="just-in">
+                            <div class="product-price">$100.00</div>
+                            <div class="rating-wapper">
+                                <span class="star-rating"><span class="stars three"></span></span>
+                            </div>
+                        </div>
+                        <div class="product-brand"><a href="">Styled Habitat</a></div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-thumb">
+                        <a href="">
+                            <img src="images/product-4.jpg">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <h4 class="product-name"><a href="">Wood Patio Chair</a></h4>
+                        <div class="just-in">
+                            <div class="product-price">$100.00</div>
+                            <div class="rating-wapper">
+                                <span class="star-rating"><span class="stars two"></span></span>
+                            </div>
+                        </div>
+                        <div class="product-brand"><a href="">Styled Habitat</a></div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-thumb">
+                        <a href="">
+                            <img src="images/product-5.jpg">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <h4 class="product-name"><a href="">Brown Vinyl Padded</a></h4>
+                        <div class="just-in">
+                            <div class="product-price">$100.00</div>
+                            <div class="rating-wapper">
+                                <span class="star-rating"><span class="stars one"></span></span>
+                            </div>
+                        </div>
+                        <div class="product-brand"><a href="">Styled Habitat</a></div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-thumb">
+                        <a href="">
+                            <img src="images/product-6.jpg">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <h4 class="product-name"><a href="">Antique Walnut</a></h4>
+                        <div class="just-in">
+                            <div class="product-price">$100.00</div>
+                            <div class="rating-wapper">
+                                <span class="star-rating"><span class="stars four"></span></span>
+                            </div>
+                        </div>
+                        <div class="product-brand"><a href="">Styled Habitat</a></div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-thumb">
+                        <a href="">
+                            <img src="images/product-7.jpg">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <h4 class="product-name"><a href="">Office Desk Sofa</a></h4>
+                        <div class="just-in">
+                            <div class="product-price">$100.00</div>
+                            <div class="rating-wapper">
+                                <span class="star-rating"><span class="stars four"></span></span>
+                            </div>
+                        </div>
+                        <div class="product-brand"><a href="">Styled Habitat</a></div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-thumb">
+                        <a href="">
+                            <img src="images/product-8.jpg">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <h4 class="product-name"><a href="">Ergonomic Desk Sofa</a></h4>
+                        <div class="just-in">
+                            <div class="product-price">$100.00</div>
+                            <div class="rating-wapper">
+                                <span class="star-rating"><span class="stars five"></span></span>
+                            </div>
+                        </div>
+                        <div class="product-brand"><a href="">Styled Habitat</a></div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-thumb">
+                        <a href="">
+                            <img src="images/product-9.jpg">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <h4 class="product-name"><a href="">Swivel Sofa</a></h4>
+                        <div class="just-in">
+                            <div class="product-price">$100.00</div>
+                            <div class="rating-wapper">
+                                <span class="star-rating"><span class="stars three"></span></span>
+                            </div>
+                        </div>
+                        <div class="product-brand"><a href="">Styled Habitat</a></div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-thumb">
+                        <a href="">
+                            <img src="images/product-10.jpg">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <h4 class="product-name"><a href="">Wood Patio Chair</a></h4>
+                        <div class="just-in">
+                            <div class="product-price">$100.00</div>
+                            <div class="rating-wapper">
+                                <span class="star-rating"><span class="stars two"></span></span>
+                            </div>
+                        </div>
+                        <div class="product-brand"><a href="">Styled Habitat</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="bestseller">
+            <div class="products-grid">
+                <div class="product-item">
+                    <div class="product-thumb">
+                        <a href="">
+                            <img src="images/product-8.jpg">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <h4 class="product-name"><a href="">Ergonomic Desk Sofa</a></h4>
+                        <div class="just-in">
+                            <div class="product-price">$100.00</div>
+                            <div class="rating-wapper">
+                                <span class="star-rating"><span class="stars five"></span></span>
+                            </div>
+                        </div>
+                        <div class="product-brand"><a href="">Styled Habitat</a></div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-thumb">
+                        <a href="">
+                            <img src="images/product-9.jpg">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <h4 class="product-name"><a href="">Swivel Sofa</a></h4>
+                        <div class="just-in">
+                            <div class="product-price">$100.00</div>
+                            <div class="rating-wapper">
+                                <span class="star-rating"><span class="stars three"></span></span>
+                            </div>
+                        </div>
+                        <div class="product-brand"><a href="">Styled Habitat</a></div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-thumb">
+                        <a href="">
+                            <img src="images/product-10.jpg">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <h4 class="product-name"><a href="">Wood Patio Chair</a></h4>
+                        <div class="just-in">
+                            <div class="product-price">$100.00</div>
+                            <div class="rating-wapper">
+                                <span class="star-rating"><span class="stars two"></span></span>
+                            </div>
+                        </div>
+                        <div class="product-brand"><a href="">Styled Habitat</a></div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-thumb">
+                        <a href="">
+                            <img src="images/product-1.jpg">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <h4 class="product-name"><a href="">Office Desk Sofa</a></h4>
+                        <div class="just-in">
+                            <div class="product-price">$100.00</div>
+                            <div class="rating-wapper">
+                                <span class="star-rating"><span class="stars four"></span></span>
+                            </div>
+                        </div>
+                        <div class="product-brand"><a href="">Styled Habitat</a></div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-thumb">
+                        <a href="">
+                            <img src="images/product-2.jpg">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <h4 class="product-name"><a href="">Ergonomic Desk Sofa</a></h4>
+                        <div class="just-in">
+                            <div class="product-price">$100.00</div>
+                            <div class="rating-wapper">
+                                <span class="star-rating"><span class="stars five"></span></span>
+                            </div>
+                        </div>
+                        <div class="product-brand"><a href="">Styled Habitat</a></div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-thumb">
+                        <a href="">
+                            <img src="images/product-3.jpg">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <h4 class="product-name"><a href="">Swivel Sofa</a></h4>
+                        <div class="just-in">
+                            <div class="product-price">$100.00</div>
+                            <div class="rating-wapper">
+                                <span class="star-rating"><span class="stars three"></span></span>
+                            </div>
+                        </div>
+                        <div class="product-brand"><a href="">Styled Habitat</a></div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-thumb">
+                        <a href="">
+                            <img src="images/product-4.jpg">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <h4 class="product-name"><a href="">Wood Patio Chair</a></h4>
+                        <div class="just-in">
+                            <div class="product-price">$100.00</div>
+                            <div class="rating-wapper">
+                                <span class="star-rating"><span class="stars two"></span></span>
+                            </div>
+                        </div>
+                        <div class="product-brand"><a href="">Styled Habitat</a></div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-thumb">
+                        <a href="">
+                            <img src="images/product-5.jpg">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <h4 class="product-name"><a href="">Brown Vinyl Padded</a></h4>
+                        <div class="just-in">
+                            <div class="product-price">$100.00</div>
+                            <div class="rating-wapper">
+                                <span class="star-rating"><span class="stars one"></span></span>
+                            </div>
+                        </div>
+                        <div class="product-brand"><a href="">Styled Habitat</a></div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-thumb">
+                        <a href="">
+                            <img src="images/product-6.jpg">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <h4 class="product-name"><a href="">Antique Walnut</a></h4>
+                        <div class="just-in">
+                            <div class="product-price">$100.00</div>
+                            <div class="rating-wapper">
+                                <span class="star-rating"><span class="stars four"></span></span>
+                            </div>
+                        </div>
+                        <div class="product-brand"><a href="">Styled Habitat</a></div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-thumb">
+                        <a href="">
+                            <img src="images/product-7.jpg">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <h4 class="product-name"><a href="">Office Desk Sofa</a></h4>
+                        <div class="just-in">
+                            <div class="product-price">$100.00</div>
+                            <div class="rating-wapper">
+                                <span class="star-rating"><span class="stars four"></span></span>
+                            </div>
+                        </div>
+                        <div class="product-brand"><a href="">Styled Habitat</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="featured">
+            <div class="products-grid">
+                <div class="product-item">
+                    <div class="product-thumb">
+                        <a href="">
+                            <img src="images/product-6.jpg">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <h4 class="product-name"><a href="">Antique Walnut</a></h4>
+                        <div class="just-in">
+                            <div class="product-price">$100.00</div>
+                            <div class="rating-wapper">
+                                <span class="star-rating"><span class="stars four"></span></span>
+                            </div>
+                        </div>
+                        <div class="product-brand"><a href="">Styled Habitat</a></div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-thumb">
+                        <a href="">
+                            <img src="images/product-7.jpg">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <h4 class="product-name"><a href="">Office Desk Sofa</a></h4>
+                        <div class="just-in">
+                            <div class="product-price">$100.00</div>
+                            <div class="rating-wapper">
+                                <span class="star-rating"><span class="stars four"></span></span>
+                            </div>
+                        </div>
+                        <div class="product-brand"><a href="">Styled Habitat</a></div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-thumb">
+                        <a href="">
+                            <img src="images/product-8.jpg">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <h4 class="product-name"><a href="">Ergonomic Desk Sofa</a></h4>
+                        <div class="just-in">
+                            <div class="product-price">$100.00</div>
+                            <div class="rating-wapper">
+                                <span class="star-rating"><span class="stars five"></span></span>
+                            </div>
+                        </div>
+                        <div class="product-brand"><a href="">Styled Habitat</a></div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-thumb">
+                        <a href="">
+                            <img src="images/product-9.jpg">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <h4 class="product-name"><a href="">Swivel Sofa</a></h4>
+                        <div class="just-in">
+                            <div class="product-price">$100.00</div>
+                            <div class="rating-wapper">
+                                <span class="star-rating"><span class="stars three"></span></span>
+                            </div>
+                        </div>
+                        <div class="product-brand"><a href="">Styled Habitat</a></div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-thumb">
+                        <a href="">
+                            <img src="images/product-10.jpg">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <h4 class="product-name"><a href="">Wood Patio Chair</a></h4>
+                        <div class="just-in">
+                            <div class="product-price">$100.00</div>
+                            <div class="rating-wapper">
+                                <span class="star-rating"><span class="stars two"></span></span>
+                            </div>
+                        </div>
+                        <div class="product-brand"><a href="">Styled Habitat</a></div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-thumb">
+                        <a href="">
+                            <img src="images/product-1.jpg">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <h4 class="product-name"><a href="">Office Desk Sofa</a></h4>
+                        <div class="just-in">
+                            <div class="product-price">$100.00</div>
+                            <div class="rating-wapper">
+                                <span class="star-rating"><span class="stars four"></span></span>
+                            </div>
+                        </div>
+                        <div class="product-brand"><a href="">Styled Habitat</a></div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-thumb">
+                        <a href="">
+                            <img src="images/product-2.jpg">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <h4 class="product-name"><a href="">Ergonomic Desk Sofa</a></h4>
+                        <div class="just-in">
+                            <div class="product-price">$100.00</div>
+                            <div class="rating-wapper">
+                                <span class="star-rating"><span class="stars five"></span></span>
+                            </div>
+                        </div>
+                        <div class="product-brand"><a href="">Styled Habitat</a></div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-thumb">
+                        <a href="">
+                            <img src="images/product-3.jpg">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <h4 class="product-name"><a href="">Swivel Sofa</a></h4>
+                        <div class="just-in">
+                            <div class="product-price">$100.00</div>
+                            <div class="rating-wapper">
+                                <span class="star-rating"><span class="stars three"></span></span>
+                            </div>
+                        </div>
+                        <div class="product-brand"><a href="">Styled Habitat</a></div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-thumb">
+                        <a href="">
+                            <img src="images/product-4.jpg">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <h4 class="product-name"><a href="">Wood Patio Chair</a></h4>
+                        <div class="just-in">
+                            <div class="product-price">$100.00</div>
+                            <div class="rating-wapper">
+                                <span class="star-rating"><span class="stars two"></span></span>
+                            </div>
+                        </div>
+                        <div class="product-brand"><a href="">Styled Habitat</a></div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-thumb">
+                        <a href="">
+                            <img src="images/product-5.jpg">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <h4 class="product-name"><a href="">Brown Vinyl Padded</a></h4>
+                        <div class="just-in">
+                            <div class="product-price">$100.00</div>
+                            <div class="rating-wapper">
+                                <span class="star-rating"><span class="stars one"></span></span>
+                            </div>
+                        </div>
+                        <div class="product-brand"><a href="">Styled Habitat</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+
+    <div class="quicklink-wrapper">
+        <div class="container">
+            <div class="referance-section">
+                <div class="ref-banners">
+                    <a href="">
+                        <div class="quicklink-wrap">
+                            <div class="liExp-banner">
+                                <div><img src="images/avatar-1.jpg"><span>Kathy</span></div>
+                                <div><img src="images/avatar-2.jpg"><span>Craig</span></div>
+                                <div><img src="images/avatar-3.jpg"><span>Brandon</span></div>
+                            </div>
+                            <div class="quicklink-content">
+                                <h6>Living Experience</h6>
+                                <h2>Our coustomers share their stories.</h2>
+                                <span>Explore More <i class="bi bi-arrow-right"></i></span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="quicklink-wrap">
+                            <div class="knwHw-banner">
+                                <img src="images/knwHwGuide-1.jpg">
+                                <img src="images/knwHwGuide-2.jpg">
+                            </div>
+                            <div class="quicklink-content">
+                                <h6>Know How</h6>
+                                <h2>Find out how to do things by yourself.</h2>
+                                <span>Explore More <i class="bi bi-arrow-right"></i></span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="ref-content">
+                    <h2>Architecting Your Space, Together</h2>
+                    <p>Our world class team of industry experts is here to support you.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="insta-wrapper">
+        <div class="container">
+            <div class="title-section text-center mb-5">
+                <h2 class="title">Follow us on Instagram</h2>
+            </div>
+            <!-- <div id="instafeed"></div> -->
+            <div class="instagrid">
+                <div><img
+                        src="https://images.pexels.com/photos/3097112/pexels-photo-3097112.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                </div>
+                <div><img
+                        src="https://images.pexels.com/photos/757316/pexels-photo-757316.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                </div>
+                <div><img
+                        src="https://images.pexels.com/photos/4255717/pexels-photo-4255717.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                </div>
+                <div><img
+                        src="https://images.pexels.com/photos/4765366/pexels-photo-4765366.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                </div>
+                <div><img
+                        src="https://images.pexels.com/photos/7214136/pexels-photo-7214136.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                </div>
+                <div><img
+                        src="https://images.pexels.com/photos/3104527/pexels-photo-3104527.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                </div>
+                <div><img
+                        src="https://images.pexels.com/photos/5144485/pexels-photo-5144485.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                </div>
+                <div><img
+                        src="https://images.pexels.com/photos/2372937/pexels-photo-2372937.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="bg-wrapper">
+        <div class="bg-parelex" style="background: url(images/parallax_land1.jpg);"></div>
+        <div class="banner-wrapper-infor">
+            <h2>Lorem ipsum dolor sit amet consectetur adipiscing elit</h2>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
+                rem aperiam, eaque ipsa quae ab illo inventore</p>
+            <a href="" class="btn btn-white">Learn More</a>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="images/logo.png" class="ft-logo">
+                        <p class="ft-dec">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                        <ul class="social">
+                            <li><a href=""><img src="images/instagram.svg"></a></li>
+                            <li><a href=""><img src="images/pinterest.svg"></a></li>
+                            <li><a href=""><img src="images/twitter.svg"></a></li>
+                            <li><a href=""><img src="images/facebook.svg"></a></li>
+                        </ul>
+                        <p class="copyrights">© 2021 Shorfa - All rights reserved</p>
+                    </div>
+                    <div class="col-md-2">
+                        <span class="ft-title">Useful</span>
+                        <ul class="ft-links">
+                            <li><a href="">The Collections</a></li>
+                            <li><a href="">Size Guide</a></li>
+                            <li><a href="">Lookbook</a></li>
+                            <li><a href="">Instagram Shop</a></li>
+                            <li><a href="">Market API</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <span class="ft-title">Help</span>
+                        <ul class="ft-links">
+                            <li><a href="">Privacy Policy</a></li>
+                            <li><a href="">Return Policy</a></li>
+                            <li><a href="">Terms & Conditions</a></li>
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="ft-title">Our Newsletter</span>
+                        <div class="subscribeBox">
+                            <i class="bi bi-envelope-open"></i>
+                            <input type="text" name="" placeholder="Enter your Email ID">
+                            <button class="btn btn-primary">Subscribe</button>
+                        </div>
+                        <small>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor
+                            incididunt.</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <div class="modal fade" id="language-pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title" id="exampleModalLabel">Choose Language</h6>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body p-0">
+                    <div class="modal-scroller">
+                        <div class="modal-search">
+                            <i class="bi bi-search"></i>
+                            <input type="text" name="" placeholder="search">
+                        </div>
+                        <div class="modal-options">
+                            <div class="form-option">
+                                <label class="foption">
+                                    <input type="radio" name="currency">
+                                    <span>Arabic</span>
+                                </label>
+                            </div>
+                            <div class="form-option">
+                                <label class="foption">
+                                    <input type="radio" name="currency" checked>
+                                    <span>English</span>
+                                </label>
+                            </div>
+                            <div class="form-option">
+                                <label class="foption">
+                                    <input type="radio" name="currency">
+                                    <span>Spanish</span>
+                                </label>
+                            </div>
+                            <div class="form-option">
+                                <label class="foption">
+                                    <input type="radio" name="currency">
+                                    <span>French</span>
+                                </label>
+                            </div>
+                            <div class="form-option">
+                                <label class="foption">
+                                    <input type="radio" name="currency">
+                                    <span>German</span>
+                                </label>
+                            </div>
+                            <div class="form-option">
+                                <label class="foption">
+                                    <input type="radio" name="currency">
+                                    <span>Hindi</span>
+                                </label>
+                            </div>
+                            <div class="form-option">
+                                <label class="foption">
+                                    <input type="radio" name="currency">
+                                    <span>Russian</span>
+                                </label>
+                            </div>
+                            <div class="form-option">
+                                <label class="foption">
+                                    <input type="radio" name="currency">
+                                    <span>Portuguese</span>
+                                </label>
+                            </div>
+                            <div class="form-option">
+                                <label class="foption">
+                                    <input type="radio" name="currency">
+                                    <span>Korean</span>
+                                </label>
+                            </div>
+                            <div class="form-option">
+                                <label class="foption">
+                                    <input type="radio" name="currency">
+                                    <span>Italian</span>
+                                </label>
+                            </div>
+                            <div class="form-option">
+                                <label class="foption">
+                                    <input type="radio" name="currency">
+                                    <span>Wu Chinese</span>
+                                </label>
+                            </div>
+                            <div class="form-option">
+                                <label class="foption">
+                                    <input type="radio" name="currency">
+                                    <span>Turkish</span>
+                                </label>
+                            </div>
+                            <div class="form-option">
+                                <label class="foption">
+                                    <input type="radio" name="currency">
+                                    <span>Egyptian Arabic</span>
+                                </label>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-primary">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="currency-pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title" id="exampleModalLabel">Choose Currency</h6>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body p-0">
+                    <div class="modal-scroller">
+                        <div class="modal-search">
+                            <i class="bi bi-search"></i>
+                            <input type="text" name="" placeholder="search">
+                        </div>
+                        <div class="modal-options">
+                            <div class="form-option">
+                                <label class="foption">
+                                    <input type="radio" name="language" checked>
+                                    <span>SAR</span>
+                                </label>
+                            </div>
+                            <div class="form-option">
+                                <label class="foption">
+                                    <input type="radio" name="language">
+                                    <span>OMR</span>
+                                </label>
+                            </div>
+                            <div class="form-option">
+                                <label class="foption">
+                                    <input type="radio" name="language">
+                                    <span>AED</span>
+                                </label>
+                            </div>
+                            <div class="form-option">
+                                <label class="foption">
+                                    <input type="radio" name="language">
+                                    <span>USD</span>
+                                </label>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-primary">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="access-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog md" role="document">
+            <div class="modal-content">
+                <div class="access-container">
+                    <div class="container" id="container">
+                        <div class="form-container sign-up-container">
+                            <form action="#">
+                                <h5 class="title">Create Account</h5>
+                                <div class="social-container">
+                                    <a href="" class="social"><i class="bi bi-google"></i></a>
+                                    <a href="" class="social"><i class="bi bi-facebook"></i></a>
+                                    <a href="" class="social"><i class="bi bi-twitter"></i></a>
+                                </div>
+                                <span>or use your email for registration</span>
+                                <div class="access-input-group">
+                                    <input type="text" placeholder="Name" />
+                                    <input type="email" placeholder="Email" />
+                                    <input type="password" placeholder="Password" />
+                                </div>
+                                <button class="btn btn-primary">Sign Up</button>
+                            </form>
+                        </div>
+                        <div class="form-container sign-in-container">
+                            <form action="#">
+                                <h5 class="title">Sign in</h5>
+                                <div class="social-container">
+                                    <a href="" class="social"><i class="bi bi-google"></i></a>
+                                    <a href="" class="social"><i class="bi bi-facebook"></i></a>
+                                    <a href="" class="social"><i class="bi bi-twitter"></i></a>
+                                </div>
+                                <span>or use your account</span>
+                                <div class="access-input-group">
+                                    <input type="email" placeholder="Email" />
+                                    <input type="password" placeholder="Password" />
+                                </div>
+                                <a href="" class="pw-recover">Forgot your password?</a>
+                                <button class="btn btn-primary">Sign In</button>
+                            </form>
+                        </div>
+                        <div class="overlay-container">
+                            <div class="overlay">
+                                <div class="overlay-panel overlay-left">
+                                    <h5 class="title">Welcome Back!</h5>
+                                    <p>To keep connected with us please login with your personal info</p>
+                                    <button class="btn btn-outline" id="signIn">Sign In</button>
+                                </div>
+                                <div class="overlay-panel overlay-right">
+                                    <h5 class="title">Hello, Friend!</h5>
+                                    <p>Enter your personal details and start journey with us</p>
+                                    <button class="btn btn-outline" id="signUp">Sign Up</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- <script src="https://github.com/stevenschobert/instafeed.js"></script> -->
+    <script src="js/custom.js"></script>
+    <script src="https://cdn.ckeditor.com/ckeditor5/29.0.0/classic/ckeditor.js"></script>
+    <script type="text/javascript">
+
+        setTimeout(function () {
+            $(".close-drawer").trigger("click");
+        }, 1000);
+        /* function fillDetails(jsonData) {
+            alert("11");
+        }
+        fillDetails(1); */
+        function fillDetails(jsonData) {
+            var user_data = JSON.parse(jsonData);
+            sessionStorage.setItem('token', user_data.token);
+            sessionStorage.setItem('user', JSON.parse(user_data.user));
+            window.webkit.messageHandlers.callback.postMessage('{"action":"data_stored"}');
+            location.reload();
+        }
+        $("#hero-carousel").carousel({
+            interval: 5000,
+            cycle: true,
+        });
+        var swiper = new Swiper('.ad-slider', {
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: true
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                dynamicBullets: true,
+                dynamicBullets: true,
+                dynamicMainBullets: 4
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+
+
+
+    </script>
+    <script>
+    // var feed = new Instafeed({
+    //   accessToken: 'your-token'
+    // });
+    // feed.run();
+    </script>
+</body>
+
+</html>

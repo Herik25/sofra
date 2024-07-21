@@ -1,0 +1,91 @@
+{
+  "name": "shorfa",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://shorfa.com/",
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^29.0.0",
+    "@ckeditor/ckeditor5-react": "^3.0.2",
+    "@google-cloud/translate": "^7.0.0",
+    "@paypal/react-paypal-js": "^7.8.1",
+    "@publidata/utils-google-translate": "^1.2.6",
+    "@testing-library/jest-dom": "^5.12.0",
+    "@testing-library/react": "^11.2.6",
+    "@testing-library/user-event": "^12.8.3",
+    "aksfileupload": "^1.0.0",
+    "axios": "^0.21.1",
+    "bootstrap": "^5.0.2",
+    "datatables": "^1.10.18",
+    "datatables.net-dt": "^1.1.0",
+    "firebase": "^9.19.1",
+    "form-serialize": "^0.7.2",
+    "generate-pdf-from-react-html": "^1.0.5",
+    "google-translate": "^2.2.0",
+    "html-to-react": "^1.4.7",
+    "jquery": "^3.6.0",
+    "modules": "^0.4.0",
+    "multiselect-react-dropdown": "^1.7.0",
+    "node-modules": "^0.0.1",
+    "paypal-checkout": "^4.0.336",
+    "paypal-express-checkout": "^1.6.3",
+    "popper.js": "^1.16.1",
+    "query-string": "^8.1.0",
+    "querystring": "^0.2.1",
+    "react": "^17.0.2",
+    "react-async-script-loader": "^0.3.0",
+    "react-bootstrap": "^2.5.0",
+    "react-bootstrap-sweetalert": "^5.2.0",
+    "react-confirm-box": "^1.2.0",
+    "react-cookies": "^0.1.1",
+    "react-dom": "^17.0.2",
+    "react-ga": "^3.3.1",
+    "react-helmet": "^6.1.0",
+    "react-instagram-embed": "^3.0.0",
+    "react-loader": "^2.4.7",
+    "react-multi-select-component": "^4.1.13",
+    "react-paypal-button-v2": "^2.6.3",
+    "react-paypal-checkout": "^1.0.9",
+    "react-paypal-express-checkout": "^1.0.5",
+    "react-render-html": "^0.6.0",
+    "react-router-dom": "^5.2.0",
+    "react-script-tag": "^1.1.2",
+    "react-scripts": "^5.0.1",
+    "react-search-autocomplete": "^5.4.4",
+    "react-search-box": "^2.3.0",
+    "react-select": "^4.3.1",
+    "react-select-2": "^2.0.11",
+    "react-select2-wrapper": "^1.0.4-beta6",
+    "react-show-more-text": "^1.5.2",
+    "react-toastify": "^7.0.4",
+    "simple-react-validator": "^1.6.0",
+    "stream": "^0.0.3",
+    "sweetalert-react": "^0.4.11",
+    "swiper": "^8.0.5",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "dev": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
